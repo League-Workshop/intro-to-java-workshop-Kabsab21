@@ -10,22 +10,22 @@ public class FlamingNinjaStar {
 		int flameSize = 130;		//the length of the flaming arms
 		
 		// Make a new robot, and set it's pen down.
-
+Robot sasuke2 = new Robot();
 		// Set the robot speed to 100
-		
-		// Set the robot window size to 800 x 800
-
+		sasuke2.setSpeed(100);
+		// Set the robot window siz
+		sasuke2.setWindowSize(800,800);
 		//  COUNT. Make an int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
-		
+		int acc = 0;
 	       //  LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
-
+while(acc <1) {
 			   // TURN RIGHT     Turn the robot 1/8 of a circle (hint: 360 degrees will turn a full circle)
-		
+		sasuke2.turn(90);
 			   // MOVE           Move the robot 64 pixels
-
+				sasuke2.move(64);
 			   // TURN LEFT      Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
-			
+				
 			   // DRAW FLAME     Move the robot the distance in the variable flameSize
 			
 				//               Turn the robot 170 degrees
@@ -37,7 +37,7 @@ public class FlamingNinjaStar {
 				// MOVE         Move the robot the distance in the variable baseSize
 		
 				//  INCREASE COUNT. Increase the count by 1
-		
+}
 		//  End the while loop here
 		
 		// TEST   Run the program. Check that your shape is the same as the first picture in the recipe. 

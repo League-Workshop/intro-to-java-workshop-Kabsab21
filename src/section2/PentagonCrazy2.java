@@ -6,38 +6,37 @@ import org.jointheleague.graphical.robot.Robot;
 
 /* Teacher’s note: before beginning, maybe draw a pentagon and have students work out the angle that the robot will have to turn (360/5) */
 
-public class PentagonCrazy {
+public class PentagonCrazy2 {
 	public static void main(String[] args) {
 		
 		//  Create a new Robot
-  Robot sasunaru = new Robot();
-  
+
 		//  Put the robot's pen down
-sasunaru.penDown();
+
 		//  SPEED. Make the robot go at maximum speed (100)
-sasunaru.setSpeed(100);
+
 		//  COLOR. Set the pen to a color that you like for the shape
-sasunaru.setPenColor(255,209,193);
+
 		//  NUMBER OF SIDES. Make an int variable for the number of sides the shape will have.
 		//  				(Hint: its called PentagonCrazy)
-int pentagonCrazy = 5;
+
 		//  TURN ANGLE. Make another int variable for the angle the robot must turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has to get the angle.
-		int byakugan = 360/5;
+		
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
-int count = 0;
+
 		//  LOOP. Start a while loop to repeat the DRAW, TURN, and INCREASE COUNT code 200 times. 
-		while (count <200) {
+		
 				//  DRAW.  Make the robot move "i" pixels
 				//         "i" is the variable in the for loop
-		sasunaru.move(count);
+		
 				//  TURN.  Turn the robot the amount in your angle variable + 1
-sasunaru.turn(byakugan+1);
+
 				//  INCREASE COUNT. Increase the loop count by 1
 		
 		//  End the while loop here
-		}
+
 		//  Now hide the robot so you can see the pattern it has drawn.
 		
 		//  Run the program. 
@@ -49,6 +48,6 @@ sasunaru.turn(byakugan+1);
 	// *12. make the pattern really huge
 	// *13. randomize the color of the pattern 
 	// *14. experiment with different shapes
-		
+
 	}
 }
